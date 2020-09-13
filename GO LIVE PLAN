@@ -1,0 +1,41 @@
+GO LIVE PLAN
+It is about setting your migration goal and business objective
+This plan will be based on the Four Recommended Migration steps by Microsoft
+1.	Assess
+2.	Migrate
+3.	Optimize
+4.	Secure and Manage
+However, before the above four steps; we must ensure/consider the following
+1.	Ensure you have Backups
+2.	Train your team to be able to manage/deploy to the cloud
+3.	Consider the networking architecture
+4.	Do we intend to migrate DB’s/storage to the Cloud or establish a hybrid connection
+5.	If so, would we require a lease line for hybrid or migration
+6.	Is it going to be highly available? Scalable?
+
+Assess:
+This consist of three stages;
+Discover
+Use Azure Migration tool i.e. Azure Migrate to determine what services, dependencies and applications are there that needs to be migrated and the cost of running them on Azure, you can use azure calculator preferably. Also give you insights to what ports each application is using
+Map On-Prem Applications
+Using the information gotten from the discovery stage, map out the dependencies/applications supported on the Cloud
+Evaluate
+After determining what needs to be moved to the Cloud, then decide on the best tool to migrate youe app to the Cloud
+Migration:
+We can use Azure App Service Migration assistant to migrate our applications to the cloud easily and faster, if all assessment are successful and compatible.
+If not, then we can choose to consider the following
+Refactoring: Refactor the code of your application to be compatible with the Cloud
+Rearchitecting: To meet the deployment requirements of the cloud 
+
+
+Optimize
+Optimize your application by backing them up, monitoring and setting good metrics to scale based on workload.
+Azure Backup
+This helps you avoid costly business disruptions, meet compliance goals, protect against ransomware or human error by backing up your applications to Azure. 
+Azure Cloud Monitoring.
+This consist of Azure Monitor, log analytics and application insights. These tools allow us to collect data from multiple sources and gain rich insights into the health of our application.
+Azure Security Center
+This allow us to see and control the security of all our Cloud Application. This will allow us to quickly respond to threats and reduce the chances of breaches.
+ 
+ nb: Azure Web App Service Migration Assistant is a great tool for migration of app to Azure Web app
+
