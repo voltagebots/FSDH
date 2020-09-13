@@ -1,0 +1,14 @@
+Use Application insight to gain Real time visibility into the performance of your application
+Azure monitor which collects data from different sources of your environment
+Log analytics - collects and analyze logs and metrics
+
+App Metrics
+User connections 
+Page Splits
+CPU
+Memory
+Storage 1/0
+Network in/out
+Latency
+Dependency Call rate
+Request rate
